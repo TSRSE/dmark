@@ -90,10 +90,10 @@ h3{
 
 .block-1{
     margin-top: 156px;
-    display: flex;
+    /*display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column;*/
     color: #8E88C1;
 }
 .stripe{
@@ -122,8 +122,36 @@ h3{
 
 .tags{
     margin-top: 112px;
+    font-size: 24px;
+}
+
+.content{
+    margin-top: 40px;
+}
+
+.tags p{
+    margin: 0px;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+.tags .container{
+    margin-top: 0px;
+    gap: 20px;
+}
+
+
+
+.tag-clickable, .tag{
+    border: #8E88C1 solid 2px;
+    padding: 5px 16px 5px 16px;
+    border-radius: 32px;
+    font-weight: bold;
+}
+
+.tag-clickable{
+    background-color: #2F2F2F;
 }
 
 *{
-    border: 0px solid coral;
+    border: 1px solid coral;
 }
