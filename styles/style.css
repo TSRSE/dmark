@@ -139,8 +139,6 @@ h3{
     gap: 20px;
 }
 
-
-
 .tag-clickable, .tag{
     border: #8E88C1 solid 2px;
     padding: 5px 16px 5px 16px;
@@ -152,6 +150,25 @@ h3{
     background-color: #2F2F2F;
 }
 
+.block-2{
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.block-2 img{
+    position: absolute;
+}
+
+.backpad{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
 *{
-    border: 1px solid coral;
+    border: 0px solid coral;
 }
