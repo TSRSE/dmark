@@ -90,10 +90,6 @@ h3{
 
 .block-1{
     margin-top: 156px;
-    /*display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;*/
     color: #8E88C1;
 }
 .stripe{
@@ -159,6 +155,11 @@ h3{
     align-items: center;
 }
 
+.block-2 h2{
+    text-align: center;
+    font-weight: bold;
+}
+
 .block-2 img{
     position: absolute;
 }
@@ -167,8 +168,24 @@ h3{
     position: relative;
     display: flex;
     flex-direction: column;
+    gap: 16px;
+    padding: 22px;
+    background-color: #131313;
+    border-radius: 32px;
+}
+
+.tos{
+    border-radius: 32px;
+    width: 678px;
+    height: 46px;
+    text-align: left;
+    padding-left: 25px;
+    font-size: 24px;
+    background-color: transparent;
+    border: #8E88C1 2px solid;
+    color: #8E88C1;
 }
 
 *{
-    border: 0px solid coral;
+    border: 1px solid coral;
 }
